@@ -13,14 +13,16 @@
  *= require_tree .
  *= require_self
  */
-element.style {
-}
 
-body {
+thead{
     background-color: #fff;
     color: #333;
     font-family: verdana, arial, helvetica, sans-serif;
     font-size: 13px;
     line-height: 18px;
     margin: 33px;
+}
+
+book_title {
+    display:inline-block;
 }
