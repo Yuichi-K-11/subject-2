@@ -14,7 +14,7 @@
  *= require_self
  */
 
-thead{
+body{
     background-color: #fff;
     color: #333;
     font-family: verdana, arial, helvetica, sans-serif;
@@ -23,6 +23,35 @@ thead{
     margin: 33px;
 }
 
+p, ol, ul, td, a {
+    margin: 33px;
+}
+
 book_title {
     display:inline-block;
+}
+
+.form-error {
+    color:red;
+}
+
+
+.flash {
+    color: green;
+}
+
+div {
+    display: block;
+}
+
+input {
+    padding: 5px;
+}
+
+label　{
+    display: block;
+}
+
+.actions {
+    margin-top:11px ;
 }
